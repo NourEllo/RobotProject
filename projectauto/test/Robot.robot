@@ -43,8 +43,16 @@ Applications, testing, infrastructures Page
     #Wait Until Element Is Visible    href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"  
     #Click Element   href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"  
 
+share file
+    Wait Until Element Is Visible    //a[contains(text(),"when_testing_gets_bette...")]
+    Click Element    //a[contains(text(),"when_testing_gets_bette...")]       
+    Log    PDF est ouvert 
+    
+  
 Close Browser
     Close Browser
-    Log    Good by    
+    Log    Good by  
+
+  
 
     
