@@ -1,5 +1,5 @@
 *** Settings ***
-Library    Selenium2Library    
+Library    Selenium2Library  
    
 Documentation    Resource file for demo purposes
 ...    
@@ -19,7 +19,7 @@ ${BROWSER}        Chrome
 *** Test Cases ***
 Open chrome
     [Documentation]    cas 1
-    [Tags]    Firt Tag
+    [Tags]    Open
     Open Browser    ${LOGIN URL}   ${BROWSER}   
     Maximize Browser Window
     Sleep    5
@@ -35,21 +35,26 @@ Nos services menu
     Wait Until Element Is Visible    //a[contains(text(),"Nos services")]   
     Wait Until Element Is Visible    //a[contains(text(),"Applications, testing, infrastructures")]  
     Click Element    //a[contains(text(),"Applications, testing, infrastructures")]  
-    Log    Menu is OK    
+    Log    Menu is OK   
+     
 Applications, testing, infrastructures Page
+    [Documentation]    cas 3
     Wait Until Element Is Visible    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Click Element    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Sleep    4    
-    #Wait Until Element Is Visible    href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"  
-    #Click Element   href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"  
+    #Wait Until Element Is Visible    href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"
+    #Click Element   href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"
 
 share file
+    [Documentation]    cas 4
     Wait Until Element Is Visible    //a[contains(text(),"when_testing_gets_bette...")]
     Click Element    //a[contains(text(),"when_testing_gets_bette...")]       
     Log    PDF est ouvert 
-    
+   
+ 
   
 Close Browser
+    [Documentation]    cas 5
     Close Browser
     Log    Good by  
 
