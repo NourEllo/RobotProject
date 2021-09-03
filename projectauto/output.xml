@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.6 on win32)" generated="20210617 16:23:45.852" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.7.6 on win32)" generated="20210825 11:55:15.249" rpa="false">
 <suite id="s1" name="Projectauto" source="C:\Users\nellouzy\git\RobotProject\projectauto">
 <suite id="s1-s1" name="Test" source="C:\Users\nellouzy\git\RobotProject\projectauto\test">
 <suite id="s1-s1-s1" name="Robot" source="C:\Users\nellouzy\git\RobotProject\projectauto\test\Robot.robot">
@@ -8,8 +8,8 @@
 <arguments>
 <arg>Welcome to the first Suite setup</arg>
 </arguments>
-<msg timestamp="20210617 16:23:46.812" level="INFO">Welcome to the first Suite setup</msg>
-<status status="PASS" starttime="20210617 16:23:46.811" endtime="20210617 16:23:46.812"></status>
+<msg timestamp="20210825 11:55:16.559" level="INFO">Welcome to the first Suite setup</msg>
+<status status="PASS" starttime="20210825 11:55:16.557" endtime="20210825 11:55:16.559"></status>
 </kw>
 <test id="s1-s1-s1-t1" name="Open chrome">
 <kw name="Log" library="BuiltIn" type="setup">
@@ -17,8 +17,8 @@
 <arguments>
 <arg>Welcome to the first Test setup</arg>
 </arguments>
-<msg timestamp="20210617 16:23:46.813" level="INFO">Welcome to the first Test setup</msg>
-<status status="PASS" starttime="20210617 16:23:46.813" endtime="20210617 16:23:46.813"></status>
+<msg timestamp="20210825 11:55:16.564" level="INFO">Welcome to the first Test setup</msg>
+<status status="PASS" starttime="20210825 11:55:16.562" endtime="20210825 11:55:16.564"></status>
 </kw>
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
@@ -26,57 +26,57 @@
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20210617 16:23:46.815" level="INFO">Opening browser 'Chrome' to base url 'https://www.capgemini.com/fr-fr/'.</msg>
-<status status="PASS" starttime="20210617 16:23:46.814" endtime="20210617 16:24:06.388"></status>
+<msg timestamp="20210825 11:55:16.568" level="INFO">Opening browser 'Chrome' to base url 'https://www.capgemini.com/fr-fr/'.</msg>
+<status status="PASS" starttime="20210825 11:55:16.566" endtime="20210825 11:55:26.921"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210617 16:24:06.389" endtime="20210617 16:24:06.728"></status>
+<status status="PASS" starttime="20210825 11:55:26.923" endtime="20210825 11:55:27.156"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.740" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210617 16:24:06.728" endtime="20210617 16:24:11.741"></status>
+<msg timestamp="20210825 11:55:32.160" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210825 11:55:27.157" endtime="20210825 11:55:32.165"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>//a[contains(text(),"Autoriser tous les cookies")]</arg>
 </arguments>
-<status status="PASS" starttime="20210617 16:24:11.748" endtime="20210617 16:24:11.812"></status>
+<status status="PASS" starttime="20210825 11:55:32.167" endtime="20210825 11:55:32.262"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),"Autoriser tous les cookies")]</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.813" level="INFO">Clicking element '//a[contains(text(),"Autoriser tous les cookies")]'.</msg>
-<status status="PASS" starttime="20210617 16:24:11.812" endtime="20210617 16:24:11.927"></status>
+<msg timestamp="20210825 11:55:32.264" level="INFO">Clicking element '//a[contains(text(),"Autoriser tous les cookies")]'.</msg>
+<status status="PASS" starttime="20210825 11:55:32.263" endtime="20210825 11:55:32.436"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Chrome is opening</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.929" level="INFO">Chrome is opening</msg>
-<status status="PASS" starttime="20210617 16:24:11.928" endtime="20210617 16:24:11.930"></status>
+<msg timestamp="20210825 11:55:32.437" level="INFO">Chrome is opening</msg>
+<status status="PASS" starttime="20210825 11:55:32.436" endtime="20210825 11:55:32.437"></status>
 </kw>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Test Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.932" level="INFO">Welcome to the first Test Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:11.931" endtime="20210617 16:24:11.933"></status>
+<msg timestamp="20210825 11:55:32.439" level="INFO">Welcome to the first Test Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:32.438" endtime="20210825 11:55:32.439"></status>
 </kw>
 <doc>cas 1</doc>
 <tags>
-<tag>Firt Tag</tag>
+<tag>Open</tag>
 </tags>
-<status status="PASS" starttime="20210617 16:23:46.812" endtime="20210617 16:24:11.934" critical="yes"></status>
+<status status="PASS" starttime="20210825 11:55:16.560" endtime="20210825 11:55:32.441" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-t2" name="Nos services menu">
 <kw name="Log" library="BuiltIn" type="setup">
@@ -84,69 +84,69 @@
 <arguments>
 <arg>Welcome to the first Test setup</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.940" level="INFO">Welcome to the first Test setup</msg>
-<status status="PASS" starttime="20210617 16:24:11.939" endtime="20210617 16:24:11.941"></status>
+<msg timestamp="20210825 11:55:32.450" level="INFO">Welcome to the first Test setup</msg>
+<status status="PASS" starttime="20210825 11:55:32.449" endtime="20210825 11:55:32.450"></status>
 </kw>
 <kw name="Set Tags" library="BuiltIn">
 <doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
 <arguments>
 <arg>Second Tag</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.943" level="INFO">Set tag 'Second Tag'.</msg>
-<status status="PASS" starttime="20210617 16:24:11.942" endtime="20210617 16:24:11.943"></status>
+<msg timestamp="20210825 11:55:32.452" level="INFO">Set tag 'Second Tag'.</msg>
+<status status="PASS" starttime="20210825 11:55:32.451" endtime="20210825 11:55:32.453"></status>
 </kw>
 <kw name="Mouse Over" library="Selenium2Library">
 <doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),"Nos services")]</arg>
 </arguments>
-<msg timestamp="20210617 16:24:11.945" level="INFO">Simulating Mouse Over on element '//a[contains(text(),"Nos services")]'.</msg>
-<status status="PASS" starttime="20210617 16:24:11.944" endtime="20210617 16:24:12.330"></status>
+<msg timestamp="20210825 11:55:32.454" level="INFO">Simulating Mouse Over on element '//a[contains(text(),"Nos services")]'.</msg>
+<status status="PASS" starttime="20210825 11:55:32.453" endtime="20210825 11:55:32.798"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>//a[contains(text(),"Nos services")]</arg>
 </arguments>
-<status status="PASS" starttime="20210617 16:24:12.331" endtime="20210617 16:24:12.436"></status>
+<status status="PASS" starttime="20210825 11:55:32.799" endtime="20210825 11:55:32.833"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>//a[contains(text(),"Applications, testing, infrastructures")]</arg>
 </arguments>
-<status status="PASS" starttime="20210617 16:24:12.437" endtime="20210617 16:24:12.492"></status>
+<status status="PASS" starttime="20210825 11:55:32.834" endtime="20210825 11:55:32.869"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),"Applications, testing, infrastructures")]</arg>
 </arguments>
-<msg timestamp="20210617 16:24:12.495" level="INFO">Clicking element '//a[contains(text(),"Applications, testing, infrastructures")]'.</msg>
-<status status="PASS" starttime="20210617 16:24:12.493" endtime="20210617 16:24:19.444"></status>
+<msg timestamp="20210825 11:55:32.870" level="INFO">Clicking element '//a[contains(text(),"Applications, testing, infrastructures")]'.</msg>
+<status status="PASS" starttime="20210825 11:55:32.869" endtime="20210825 11:55:35.562"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Menu is OK</arg>
 </arguments>
-<msg timestamp="20210617 16:24:19.446" level="INFO">Menu is OK</msg>
-<status status="PASS" starttime="20210617 16:24:19.445" endtime="20210617 16:24:19.447"></status>
+<msg timestamp="20210825 11:55:35.564" level="INFO">Menu is OK</msg>
+<status status="PASS" starttime="20210825 11:55:35.563" endtime="20210825 11:55:35.565"></status>
 </kw>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Test Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:19.449" level="INFO">Welcome to the first Test Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:19.448" endtime="20210617 16:24:19.449"></status>
+<msg timestamp="20210825 11:55:35.567" level="INFO">Welcome to the first Test Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:35.566" endtime="20210825 11:55:35.567"></status>
 </kw>
 <doc>cas 2</doc>
 <tags>
 <tag>Second Tag</tag>
 <tag>Test</tag>
 </tags>
-<status status="PASS" starttime="20210617 16:24:11.938" endtime="20210617 16:24:19.450" critical="yes"></status>
+<status status="PASS" starttime="20210825 11:55:32.448" endtime="20210825 11:55:35.568" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-t3" name="Applications, testing, infrastructures Page">
 <kw name="Log" library="BuiltIn" type="setup">
@@ -154,44 +154,45 @@
 <arguments>
 <arg>Welcome to the first Test setup</arg>
 </arguments>
-<msg timestamp="20210617 16:24:19.455" level="INFO">Welcome to the first Test setup</msg>
-<status status="PASS" starttime="20210617 16:24:19.453" endtime="20210617 16:24:19.455"></status>
+<msg timestamp="20210825 11:55:35.573" level="INFO">Welcome to the first Test setup</msg>
+<status status="PASS" starttime="20210825 11:55:35.572" endtime="20210825 11:55:35.573"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>//a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]</arg>
 </arguments>
-<status status="PASS" starttime="20210617 16:24:19.457" endtime="20210617 16:24:19.551"></status>
+<status status="PASS" starttime="20210825 11:55:35.574" endtime="20210825 11:55:35.620"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]</arg>
 </arguments>
-<msg timestamp="20210617 16:24:19.553" level="INFO">Clicking element '//a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]'.</msg>
-<status status="PASS" starttime="20210617 16:24:19.552" endtime="20210617 16:24:19.685"></status>
+<msg timestamp="20210825 11:55:35.621" level="INFO">Clicking element '//a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]'.</msg>
+<status status="PASS" starttime="20210825 11:55:35.620" endtime="20210825 11:55:35.841"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>4</arg>
 </arguments>
-<msg timestamp="20210617 16:24:23.693" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20210617 16:24:19.686" endtime="20210617 16:24:23.694"></status>
+<msg timestamp="20210825 11:55:39.855" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20210825 11:55:35.842" endtime="20210825 11:55:39.857"></status>
 </kw>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Test Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:23.699" level="INFO">Welcome to the first Test Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:23.696" endtime="20210617 16:24:23.700"></status>
+<msg timestamp="20210825 11:55:39.868" level="INFO">Welcome to the first Test Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:39.866" endtime="20210825 11:55:39.868"></status>
 </kw>
+<doc>cas 3</doc>
 <tags>
 <tag>Test</tag>
 </tags>
-<status status="PASS" starttime="20210617 16:24:19.451" endtime="20210617 16:24:23.701" critical="yes"></status>
+<status status="PASS" starttime="20210825 11:55:35.571" endtime="20210825 11:55:39.869" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-t4" name="share file">
 <kw name="Log" library="BuiltIn" type="setup">
@@ -199,44 +200,45 @@
 <arguments>
 <arg>Welcome to the first Test setup</arg>
 </arguments>
-<msg timestamp="20210617 16:24:23.710" level="INFO">Welcome to the first Test setup</msg>
-<status status="PASS" starttime="20210617 16:24:23.708" endtime="20210617 16:24:23.711"></status>
+<msg timestamp="20210825 11:55:39.876" level="INFO">Welcome to the first Test setup</msg>
+<status status="PASS" starttime="20210825 11:55:39.875" endtime="20210825 11:55:39.877"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>//a[contains(text(),"when_testing_gets_bette...")]</arg>
 </arguments>
-<status status="PASS" starttime="20210617 16:24:23.713" endtime="20210617 16:24:23.904"></status>
+<status status="PASS" starttime="20210825 11:55:39.877" endtime="20210825 11:55:39.981"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),"when_testing_gets_bette...")]</arg>
 </arguments>
-<msg timestamp="20210617 16:24:23.907" level="INFO">Clicking element '//a[contains(text(),"when_testing_gets_bette...")]'.</msg>
-<status status="PASS" starttime="20210617 16:24:23.905" endtime="20210617 16:24:24.049"></status>
+<msg timestamp="20210825 11:55:39.983" level="INFO">Clicking element '//a[contains(text(),"when_testing_gets_bette...")]'.</msg>
+<status status="PASS" starttime="20210825 11:55:39.982" endtime="20210825 11:55:40.111"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>PDF est ouvert</arg>
 </arguments>
-<msg timestamp="20210617 16:24:24.050" level="INFO">PDF est ouvert</msg>
-<status status="PASS" starttime="20210617 16:24:24.050" endtime="20210617 16:24:24.051"></status>
+<msg timestamp="20210825 11:55:40.112" level="INFO">PDF est ouvert</msg>
+<status status="PASS" starttime="20210825 11:55:40.112" endtime="20210825 11:55:40.112"></status>
 </kw>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Test Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:24.052" level="INFO">Welcome to the first Test Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:24.052" endtime="20210617 16:24:24.053"></status>
+<msg timestamp="20210825 11:55:40.114" level="INFO">Welcome to the first Test Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:40.113" endtime="20210825 11:55:40.114"></status>
 </kw>
+<doc>cas 4</doc>
 <tags>
 <tag>Test</tag>
 </tags>
-<status status="PASS" starttime="20210617 16:24:23.704" endtime="20210617 16:24:24.053" critical="yes"></status>
+<status status="PASS" starttime="20210825 11:55:39.873" endtime="20210825 11:55:40.114" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-t5" name="Close Browser">
 <kw name="Log" library="BuiltIn" type="setup">
@@ -244,52 +246,53 @@
 <arguments>
 <arg>Welcome to the first Test setup</arg>
 </arguments>
-<msg timestamp="20210617 16:24:24.058" level="INFO">Welcome to the first Test setup</msg>
-<status status="PASS" starttime="20210617 16:24:24.056" endtime="20210617 16:24:24.059"></status>
+<msg timestamp="20210825 11:55:40.117" level="INFO">Welcome to the first Test setup</msg>
+<status status="PASS" starttime="20210825 11:55:40.116" endtime="20210825 11:55:40.117"></status>
 </kw>
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210617 16:24:24.060" endtime="20210617 16:24:26.692"></status>
+<status status="PASS" starttime="20210825 11:55:40.117" endtime="20210825 11:55:42.731"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Good by</arg>
 </arguments>
-<msg timestamp="20210617 16:24:26.696" level="INFO">Good by</msg>
-<status status="PASS" starttime="20210617 16:24:26.693" endtime="20210617 16:24:26.697"></status>
+<msg timestamp="20210825 11:55:42.735" level="INFO">Good by</msg>
+<status status="PASS" starttime="20210825 11:55:42.733" endtime="20210825 11:55:42.736"></status>
 </kw>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Test Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:26.700" level="INFO">Welcome to the first Test Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:26.698" endtime="20210617 16:24:26.700"></status>
+<msg timestamp="20210825 11:55:42.740" level="INFO">Welcome to the first Test Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:42.738" endtime="20210825 11:55:42.741"></status>
 </kw>
+<doc>cas 5</doc>
 <tags>
 <tag>Test</tag>
 </tags>
-<status status="PASS" starttime="20210617 16:24:24.054" endtime="20210617 16:24:26.700" critical="yes"></status>
+<status status="PASS" starttime="20210825 11:55:40.115" endtime="20210825 11:55:42.741" critical="yes"></status>
 </test>
 <kw name="Log" library="BuiltIn" type="teardown">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Welcome to the first Suite Teardown</arg>
 </arguments>
-<msg timestamp="20210617 16:24:26.709" level="INFO">Welcome to the first Suite Teardown</msg>
-<status status="PASS" starttime="20210617 16:24:26.707" endtime="20210617 16:24:26.711"></status>
+<msg timestamp="20210825 11:55:42.751" level="INFO">Welcome to the first Suite Teardown</msg>
+<status status="PASS" starttime="20210825 11:55:42.749" endtime="20210825 11:55:42.752"></status>
 </kw>
 <doc>Resource file for demo purposes
 
 this
 
 </doc>
-<status status="PASS" starttime="20210617 16:23:46.003" endtime="20210617 16:24:26.711"></status>
+<status status="PASS" starttime="20210825 11:55:15.481" endtime="20210825 11:55:42.753"></status>
 </suite>
-<status status="PASS" starttime="20210617 16:23:45.999" endtime="20210617 16:24:26.736"></status>
+<status status="PASS" starttime="20210825 11:55:15.474" endtime="20210825 11:55:42.773"></status>
 </suite>
-<status status="PASS" starttime="20210617 16:23:45.952" endtime="20210617 16:24:26.755"></status>
+<status status="PASS" starttime="20210825 11:55:15.385" endtime="20210825 11:55:42.786"></status>
 </suite>
 <statistics>
 <total>
@@ -297,7 +300,7 @@ this
 <stat pass="5" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">Firt Tag</stat>
+<stat pass="1" fail="0">Open</stat>
 <stat pass="1" fail="0">Second Tag</stat>
 <stat pass="4" fail="0">Test</stat>
 </tag>

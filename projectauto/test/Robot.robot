@@ -42,9 +42,6 @@ Applications, testing, infrastructures Page
     Wait Until Element Is Visible    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Click Element    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Log    next use cases 
-    
-share file
-    [Documentation]    cas 4
     Wait Until Element Is Visible    //a[contains(text(),"when_testing_gets_bette...")]
     Click Element    //a[contains(text(),"when_testing_gets_bette...")]       
     Log    PDF est ouvert 
