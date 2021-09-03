@@ -41,18 +41,14 @@ Applications, testing, infrastructures Page
     [Documentation]    cas 3
     Wait Until Element Is Visible    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Click Element    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
-    Sleep    4    
-    #Wait Until Element Is Visible    href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"
-    #Click Element   href="https://www.capgemini.com/fr-fr/wp-content/uploads/sites/2/2017/08/when_testing_gets_better_business_runs_smoother_0.pdf"
-
+    Log    next use cases 
+    
 share file
     [Documentation]    cas 4
     Wait Until Element Is Visible    //a[contains(text(),"when_testing_gets_bette...")]
     Click Element    //a[contains(text(),"when_testing_gets_bette...")]       
     Log    PDF est ouvert 
-   
- 
-  
+     
 Close Browser
     [Documentation]    cas 5
     Close Browser
