@@ -1,11 +1,5 @@
 *** Settings ***
 Library    Selenium2Library  
-   
-Documentation    Resource file for demo purposes
-...    
-...    this 
-...    
-... 
 Default Tags    Test
        
    
