@@ -7,10 +7,7 @@ Documentation    Resource file for demo purposes
 ...    
 ... 
 Default Tags    Test
-Suite Setup    Log    Welcome to the first Suite setup    
-Suite Teardown    Log    Welcome to the first Suite Teardown    
-Test Setup    Log    Welcome to the first Test setup
-Test Teardown    Log    Welcome to the first Test Teardown        
+       
    
 *** Variables ***
 ${LOGIN URL}      https://www.capgemini.com/fr-fr/
@@ -42,6 +39,9 @@ Applications, testing, infrastructures Page
     Wait Until Element Is Visible    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Click Element    //a[contains(text(),"Quand les procédures de Testing sont plus faciles, les projets fonctionnent mieux")]  
     Log    next use cases 
+    
+share file
+    [Documentation]    cas 4
     Wait Until Element Is Visible    //a[contains(text(),"when_testing_gets_bette...")]
     Click Element    //a[contains(text(),"when_testing_gets_bette...")]       
     Log    PDF est ouvert 
